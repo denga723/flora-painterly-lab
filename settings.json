@@ -1,0 +1,193 @@
+{
+  "styles": [
+    {
+      "id": "00_original",
+      "name": "Original",
+      "en": "Original",
+      "kind": "baseline"
+    },
+    {
+      "id": "01_classic",
+      "name": "Classic blocks",
+      "en": "Classic blocks",
+      "kind": "native",
+      "type": "Classic",
+      "size": 6
+    },
+    {
+      "id": "02_soft_oil",
+      "name": "Soft oil",
+      "en": "Soft oil",
+      "kind": "native",
+      "size": 5,
+      "sharp": 0.65
+    },
+    {
+      "id": "03_bold_oil",
+      "name": "Bold oil",
+      "en": "Bold oil",
+      "kind": "native",
+      "size": 12,
+      "sharp": 0.8
+    },
+    {
+      "id": "04_directional",
+      "name": "Directional",
+      "en": "Directional",
+      "kind": "native",
+      "size": 9,
+      "ecc": 2,
+      "uniform": 8
+    },
+    {
+      "id": "05_gouache",
+      "name": "Gouache",
+      "en": "Gouache",
+      "kind": "recipe",
+      "size": 7,
+      "sharp": 0.25,
+      "iterations": 2
+    },
+    {
+      "id": "06_watercolor",
+      "name": "Watercolor",
+      "en": "Watercolor",
+      "kind": "recipe",
+      "size": 8,
+      "sharp": 0.45,
+      "paper": 0.28,
+      "wash": 0.18
+    },
+    {
+      "id": "07_pencil",
+      "name": "Colored pencil",
+      "en": "Colored pencil",
+      "kind": "recipe",
+      "size": 2,
+      "sharp": 1,
+      "pencil": true
+    }
+  ],
+  "tests": [
+    {
+      "id": "type_classic",
+      "name": "Type · Classic",
+      "type": "Classic"
+    },
+    {
+      "id": "reference",
+      "name": "Reference · Anisotropic"
+    },
+    {
+      "id": "size_3",
+      "name": "Size · 3 px",
+      "size": 3
+    },
+    {
+      "id": "size_12",
+      "name": "Size · 12 px",
+      "size": 12
+    },
+    {
+      "id": "uniform_0",
+      "name": "Uniformity · 0",
+      "uniform": 0
+    },
+    {
+      "id": "uniform_12",
+      "name": "Uniformity · 12",
+      "uniform": 12
+    },
+    {
+      "id": "sharp_0",
+      "name": "Sharpness · 0",
+      "sharp": 0
+    },
+    {
+      "id": "sharp_05",
+      "name": "Sharpness · 0.5",
+      "sharp": 0.5
+    },
+    {
+      "id": "ecc_0",
+      "name": "Eccentricity · 0",
+      "ecc": 0
+    },
+    {
+      "id": "ecc_2",
+      "name": "Eccentricity · 2",
+      "ecc": 2
+    },
+    {
+      "id": "precision_off",
+      "name": "Classic · Precision OFF",
+      "type": "Classic",
+      "precision": false
+    },
+    {
+      "id": "precision_on",
+      "name": "Classic · Precision ON",
+      "type": "Classic",
+      "precision": true
+    },
+    {
+      "id": "iteration_2",
+      "name": "Iterations · 2",
+      "iterations": 2
+    },
+    {
+      "id": "iteration_3",
+      "name": "Iterations · 3",
+      "iterations": 3
+    }
+  ],
+  "palettes": {
+    "green": {
+      "name": "Forest green",
+      "en": "Forest green",
+      "colors": [
+        "34593a",
+        "83a43e",
+        "c3c986"
+      ],
+      "ground": "687b43"
+    },
+    "amber": {
+      "name": "Amber autumn",
+      "en": "Amber autumn",
+      "colors": [
+        "a33b16",
+        "efa728",
+        "ffd46e"
+      ],
+      "ground": "a18a4c"
+    },
+    "prism": {
+      "name": "Prismatic color",
+      "en": "Prismatic color",
+      "colors": [
+        "3457a4",
+        "bc5297",
+        "e8793c",
+        "eab545",
+        "53a499"
+      ],
+      "ground": "6e8883"
+    }
+  },
+  "lights": {
+    "soft": "Soft",
+    "sunset": "Warm side",
+    "rim": "Backlight",
+    "cool": "Cool side"
+  },
+  "defaults": {
+    "type": "Anisotropic",
+    "size": 6,
+    "uniform": 4,
+    "sharp": 1,
+    "ecc": 1,
+    "precision": false,
+    "iterations": 1
+  }
+}

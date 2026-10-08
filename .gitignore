@@ -1,0 +1,5 @@
+*.blend
+*.blend1
+*.psd
+__pycache__/
+.DS_Store
